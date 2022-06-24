@@ -1,7 +1,5 @@
 
 #stack uses LIFO last in first out 
-#the last that came into the list will go out first 
-#learning about stack data structure
 class Stack:
     
     #creating a constructor
@@ -11,6 +9,12 @@ class Stack:
     #creating an empty stack   
     def is_empty(self):
         return self.items==[]
+
+    def peek(self):
+        return self.items[0]
+    
+    def get_size(self):
+        return len(self.items)
     
     #pushing/adding items to the stack
     def push(self,item):
@@ -29,6 +33,11 @@ s=Stack()
 s.push('A')
 s.push('B')
 s.push('C')
+s.push('D')
+s.push('E')
 s.pop()
 
 print(s.print_stack())
+print(s.is_empty())
+print(s.peek())
+print(s.get_size())
