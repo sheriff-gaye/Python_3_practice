@@ -20,5 +20,5 @@ print(num)
 # print(num['name'])
 # print(num.get('name'))
 # print(num.values())
-# print(num.items())
+print(num.items())
 

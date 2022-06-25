@@ -1,6 +1,8 @@
 #this is guess game in python
+import random
 
-secret_number=5
+
+secret_number=random.randint(0,5)
 guess_count=0
 guess_limit=3
 

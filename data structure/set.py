@@ -8,6 +8,6 @@ num1={'hello','world','i am a python coder'}
     # print(nums)
 # print('orange' in num) for checking if item exist
 
-# num.add('sheriff')
-# num.update(num1) concadinating a ser
+num.add('sheriff')
+num.update(num1)
 print(num)
