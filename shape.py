@@ -22,5 +22,15 @@ class Triangel:
         self.base = base
         self.height = height
 
-    def tri_area(self, base, height):
+    def tri_area(base, height):
         return 0.5*base*height
+
+
+rec=Rectangle
+cir=Circle
+tir=Triangel
+
+
+print(rec.r_area(5,4))
+print(cir.c_area(7))
+print(tir.tri_area(5,8))

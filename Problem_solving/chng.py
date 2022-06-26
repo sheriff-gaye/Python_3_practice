@@ -1,6 +1,9 @@
+#!usr/bin/python3
+
+#function to reverse a string
 
 def reverse(st):
-    list=()
+    list=[]
     one=st.split()
     for i in one:
         list.append(i)
@@ -8,4 +11,4 @@ def reverse(st):
     return res
 
 print(reverse('Hello World'))
-print()
+print(reverse('sheriff gaye'))

@@ -1,24 +1,15 @@
 
-#learning about dictionaries in python {key:value}
-num={
-    'name':'sheriff',
-    'age':22,
-    'country':'Gambia'
-    }
+# learning about dictionaries in python {key:value}
+num = {
+    'name': 'sheriff',
+    'age': 22,
+    'country': 'Gambia',
+    'school': 'KNUST',
+    'religion': 'Isalm'
+}
 
-# num['age']=30
-num.update({'name':'sheriff gaye '})
+
+num.update({'name': 'Gaye Tech'})
+num.update({'age': 21})
+print('school' in num)
 print(num)
-
-
-
-
-
-# print(num)
-# print(type(num))
-# print(len(num))
-# print(num['name'])
-# print(num.get('name'))
-# print(num.values())
-print(num.items())
-

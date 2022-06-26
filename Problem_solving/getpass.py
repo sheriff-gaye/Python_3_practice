@@ -2,5 +2,5 @@
 
 x='Hello world'
 
-if not  type(x) is int:
-    raise Exception("Please try again later ")
+if not isinstance(x,int):
+    raise TypeError("Please try again later ")

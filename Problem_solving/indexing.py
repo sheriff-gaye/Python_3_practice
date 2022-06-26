@@ -1,8 +1,8 @@
 
 
-list =[0,2,4,2,5,6,8,2,6,3,4,5,6,3,2,2,7,8,9,1,2,2]
+list =[0,2,4,7,9,0]
 
-elem =3
+elem =0
 try:
     # Get last index of item in list
     index_pos = len(list) - list[::-1].index(elem) - 1

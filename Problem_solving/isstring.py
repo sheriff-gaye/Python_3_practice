@@ -12,3 +12,7 @@ def isDigit(string):
 
 print(isDigit("s2324"))
 print(isDigit("-234.4"))
+ # if leng == num:
+        #     return True
+        # else:
+        #     return "False"

@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+
+
+#python sensitive calculator
+
 def calculator(x,y,op):
     ops=['+','-','*','/']
     if (isinstance(y,str))or isinstance(x,str):
@@ -13,5 +18,5 @@ def calculator(x,y,op):
             return x/y
 
 print(calculator(5, 5, '*'))
-print(calculator(5, '*', '*')
-)
+print(calculator(5, '*', '*'))
+print(calculator('*','3','#'))

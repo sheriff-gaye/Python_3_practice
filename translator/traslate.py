@@ -1,6 +1,4 @@
 
-#practicing python after a while
-
 from translate import Translator
 
 magic =Translator(from_lang='English' , to_lang='Arabic')

@@ -1,10 +1,11 @@
-def who_is_paying(name): 
+def who_is_paying(name):
 
-    if(name=="") or len(name)<=2:
+    if(name == "") or len(name) <= 2:
         return [name]
     else:
-        turn=name[0]+name[1]
-        return [name,turn]
+        turn = name[0]+name[1]
+        return [name, turn]
+
 
 print(who_is_paying("sheriff"))
 print(who_is_paying("me"))
