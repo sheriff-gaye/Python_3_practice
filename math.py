@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 
 #this program is to converte weight 
 

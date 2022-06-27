@@ -21,4 +21,4 @@ def guess(x):
     print(f'Congrulation you have win , The random number is {random_number}')
 
 
-guess(1000)
+guess(10)
