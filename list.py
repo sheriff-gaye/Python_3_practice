@@ -1,11 +1,10 @@
-#!/usr/bin/python3
+def row_sum_odd_numbers(n):
+    sum=0
+    for i in range(1,n+1):
+        if i%2==1:
+            sum+=i
+        else:
+            return sum
+    return sum
 
-#this program is understand about list
-
-name=['sheriff','fatou','lamin','modou']
-name.append('enock')
-print(name)
-name.insert(0,'jobiz')
-print(name)
-
-print(type(name))
+print(row_sum_odd_numbers(6))
