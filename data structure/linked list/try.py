@@ -1,50 +1,48 @@
 
-
 class Node:
 
-    def __init__(self,data,next):
-        self.data=data
-        self.next=next
+    def __init__(self, data, next):
+        self.data = data
+        self.next = next
 
 
-class linkedList:
+class LinkedList:
 
     def __init__(self):
-        self.head=None
+        self.head = None
 
+    def add_at_top(self, data):
+        self.head = Node(data, self.head)
 
-    def add_top(self,data):
-        self.head=Node(data,self.head)
-
-
-    def add_bottom(self,data):
+    def add_at_bottom(self,data):
         if not self.head:
-            self.head=Node(data,None)
+            self.head = Node(data, None)
             return
-        current=self.head
+        current = self.head
         while current.next:
-            current=current.next
-        current.next=Node(data,None)
+            current = current.next
+        current.next = Node(data, None)
 
+    def is_empty(self):
+        return self.head == None
 
+    def get_last_node(self):
+        n=self.head
+        while n.next!=None:
+            n=n.next
+        return n.data
 
     def print_list(self):
         n = self.head
         while n != None:
-            print(n.data, end = " => ")
+            print(n.data, end=" => ")
             n = n.next
         print()
 
 
-
-    def is_empty(self):
-        return self.head==None
-
-
-
-helo=linkedList()
-helo.add_top(1)
-helo.add_bottom(5)
-helo.add_top(2)
-helo.print_list()
-print(helo.is_empty())
+class4=LinkedList()
+class4.add_at_top('sheriff')
+class4.add_at_top('gaye')
+class4.add_at_bottom('jobiz')
+class4.print_list()
+print(class4.get_last_node())
