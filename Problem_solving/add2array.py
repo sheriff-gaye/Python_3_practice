@@ -1,5 +1,3 @@
-from cv2 import sort
-
 
 def merge_arrays(arr1, arr2):
     res=(arr1+arr2)

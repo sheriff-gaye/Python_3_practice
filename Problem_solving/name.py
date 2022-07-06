@@ -2,6 +2,9 @@
 
 #creating initials from names
 
+import math
+
+
 def abbrev_name(name):
     s=name.split()
     first=(s[0])
@@ -12,3 +15,5 @@ def abbrev_name(name):
 
 
 print(abbrev_name("Sam Harris"))
+
+print(math.floor)

@@ -1,5 +1,6 @@
 
 import json
+from math import floor
 
 player1='{"name":"sheriff","age":20,"hobby":"programming"}'
 
@@ -9,3 +10,5 @@ player1='{"name":"sheriff","age":20,"hobby":"programming"}'
 x=json.loads(player1)
 
 print(json.dumps(x, indent=4 ,sort_key=True))
+
+floor
