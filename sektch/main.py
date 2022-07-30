@@ -1,0 +1,10 @@
+import cv2
+img = cv2.imread('sektch/test.png')
+grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+inv = cv2.bitwise_not(grey)
+blur = cv2.GaussianBlur(inv, (19, 19), 28)
+blur_inv = cv2.bitwise_not(blur)
+ske = cv2.divide(grey, blur_inv, scale=240.0)
+sfile = input("Enter name of your file want to save")
+cv2.imwrite(f"{sfile}.png", ske)
+input()

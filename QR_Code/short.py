@@ -1,7 +1,7 @@
 
 import pyshorteners
 
-link="https://www.facebook.com/gamtechknust/?hc_ref=ARTT-W595VyIz1uqOuiWgfowaMvnHl0sG_qCoPkTewiFDAsfLQaXx0USZYv_o6unWmU&fref=nf&__xts__[0]=68.ARANtFgSxME_B_7_Gs35-3qmKxclJ9F9pemXycqnlRGLyzPvAe4auIsBCHNQ2jVMFpsWKmwep3y31ETIQW2JeMZJ8MMUYHgZUz52nMITuJKywQS4oLvhSItlElokiq6DwznJluFfdkZOVy_iUOYgV0wQbDLPfDOy68yZufJXPVt0j6mDxDGdjl6YlkMLRr7cvFDOiWT6bHiReX12co9Gd819QSZ-C3o6LfDH-qwnUEDH3S3FofGJh0v7wbxg_OnjI3vAAy7TbUFsunavjvAu1SgTmoRGzFR6CFIy2QPuv6u3ND2Mp7U"
+link="https://www.facebook.com/107322065361688/posts/pfbid0VRWb1xw3oYtdTHd12odtB18BtFG8VSatTwuz8g2LkNebmTUxB7srt2eGC5z6CT2vl/?d=n"
 
 shot=pyshorteners.Shortener()
 res=shot.tinyurl.short(link)
